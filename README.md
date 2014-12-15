@@ -1,7 +1,9 @@
 # TODO reminder
 manage all your todos
 
-`gem install todo_reminder`
+`gem install todo_reminder`   
+
+find all comments in a file containing TODO id:
 
 example:
 
