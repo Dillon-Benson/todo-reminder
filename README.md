@@ -5,12 +5,12 @@ manage all your todos
 
 example:
 
-```
+```ruby
 # contains_todos.rb
 return "bigger" if 5 > 4 # TODO 5423: evaluate comparison before return
 ```
 
-```
+```ruby
 require 'todo_reminder'
 
 t1 = Thread.new do
