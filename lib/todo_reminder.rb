@@ -4,6 +4,14 @@ require 'todo_reminder/scraper'
 require 'todo_reminder/manager'
 require 'todo_reminder/reminder'
 
+linux = []
+mac = ["say"]
+windows = []
+
+linux.each { |f| require "todo_reminder/reminders/linux/#{f}" }
+mac.each { |f| require "todo_reminder/reminders/mac/#{f}" }
+windows.each { |f| require "todo_reminder/reminders/windows/#{f}" }
+
 module TodoReminder
   class BlockRequiredError < StandardError
   end

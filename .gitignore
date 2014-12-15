@@ -5,6 +5,8 @@ coverage.data
 # rdoc generated
 rdoc
 
+.gemspec
+
 # yard generated
 doc
 .yardoc
