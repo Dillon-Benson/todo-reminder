@@ -1,4 +1,4 @@
-# TODO reminder
+# TODO reminder ![](https://travis-ci.org/Dillon-Benson/todo-reminder.svg?branch=master)
 manage all your todos
 
 `gem install todo_reminder`   
