@@ -1,0 +1,2 @@
+require 'win32' if OS.Windows? # TODO 142: Make last statement
+return self unless self.nil? # TODO 422: no need for this

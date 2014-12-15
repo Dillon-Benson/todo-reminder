@@ -15,10 +15,11 @@ require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://guides.rubygems.org/specification-reference/ for more options
   gem.name = "todo_reminder"
+  gem.files = Dir.glob('lib/**/*.rb')
   gem.homepage = "http://github.com/dillon-benson/todo_reminder"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = "Remind yourself of forgotten TO-DO's"
+  gem.description = "Remind yourself of forgotten TO-DO's"
   gem.email = "dillon.benson93@gmail.com"
   gem.authors = ["Dillon Benson"]
   # dependencies defined in Gemfile

@@ -1,0 +1,2 @@
+4 == a.val # TODO 212: No need for 'a.val'
+return 4 + a # TODO 1223: Store 4 in var
