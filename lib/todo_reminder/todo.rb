@@ -1,9 +1,9 @@
-module TodoReminder
+module TodoReminder # TODO 3123: add attribute for file name of To do
   class Todo
     attr_reader :line, :line_number
 
     def initialize(line, line_number, options = {})
-      @line = line        # r += 1 # TODO 2133: fix me
+      @line = line
       @line_number = line_number
     end
 

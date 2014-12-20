@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
   s.authors = ["Dillon Benson"]
-  s.date = "2014-12-15"
+  s.date = "2014-12-18"
   s.description = "Remind yourself of forgotten TO-DO's"
   s.email = "dillon.benson93@gmail.com"
   s.extra_rdoc_files = [
